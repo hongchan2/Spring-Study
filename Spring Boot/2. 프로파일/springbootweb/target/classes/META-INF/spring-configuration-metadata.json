@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "hongchan",
+      "type": "com.hongchan.HongchanProperties",
+      "sourceType": "com.hongchan.HongchanProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "hongchan.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hongchan.HongchanProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "hongchan.full-name",
+      "type": "java.lang.String",
+      "sourceType": "com.hongchan.HongchanProperties"
+    },
+    {
+      "name": "hongchan.name",
+      "type": "java.lang.String",
+      "sourceType": "com.hongchan.HongchanProperties"
+    }
+  ],
+  "hints": []
+}

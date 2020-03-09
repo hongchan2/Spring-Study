@@ -1,0 +1,31 @@
+2020-03-09 19:37:34.783  INFO 13263 --- [main] com.hongchan.Application                 : Starting Application on yunhongchan-ui-MacBook-Pro.local with PID 13263 (started by hongchanyun in /Users/hongchanyun/coding_project/Spring Projects/springbootweb)
+2020-03-09 19:37:34.786  INFO 13263 --- [main] com.hongchan.Application                 : The following profiles are active: prod
+2020-03-09 19:37:35.591  INFO 13263 --- [main] com.hongchan.Application                 : Started Application in 1.177 seconds (JVM running for 2.204)
+2020-03-09 19:37:50.937  INFO 13275 --- [main] com.hongchan.Application                 : Starting Application on yunhongchan-ui-MacBook-Pro.local with PID 13275 (started by hongchanyun in /Users/hongchanyun/coding_project/Spring Projects/springbootweb)
+2020-03-09 19:37:50.945  INFO 13275 --- [main] com.hongchan.Application                 : The following profiles are active: prod
+2020-03-09 19:37:51.889  INFO 13275 --- [main] com.hongchan.Application                 : Started Application in 1.311 seconds (JVM running for 2.398)
+2020-03-09 19:37:57.334  INFO 13278 --- [main] com.hongchan.Application                 : Starting Application on yunhongchan-ui-MacBook-Pro.local with PID 13278 (started by hongchanyun in /Users/hongchanyun/coding_project/Spring Projects/springbootweb)
+2020-03-09 19:37:57.336  INFO 13278 --- [main] com.hongchan.Application                 : The following profiles are active: prod
+2020-03-09 19:37:58.434  INFO 13278 --- [main] com.hongchan.Application                 : Started Application in 1.543 seconds (JVM running for 2.737)
+2020-03-09 19:41:58.672  INFO 13431 --- [main] com.hongchan.Application                 : Starting Application on yunhongchan-ui-MacBook-Pro.local with PID 13431 (started by hongchanyun in /Users/hongchanyun/coding_project/Spring Projects/springbootweb)
+2020-03-09 19:41:58.676  INFO 13431 --- [main] com.hongchan.Application                 : The following profiles are active: prod
+2020-03-09 19:42:00.192  INFO 13431 --- [main] com.hongchan.Application                 : Started Application in 2.35 seconds (JVM running for 3.93)
+2020-03-09 19:44:03.355  INFO 13502 --- [main] com.hongchan.Application                 : Starting Application on yunhongchan-ui-MacBook-Pro.local with PID 13502 (started by hongchanyun in /Users/hongchanyun/coding_project/Spring Projects/springbootweb)
+2020-03-09 19:44:03.357  INFO 13502 --- [main] com.hongchan.Application                 : The following profiles are active: prod
+2020-03-09 19:44:04.582  INFO 13502 --- [main] com.hongchan.Application                 : Started Application in 1.622 seconds (JVM running for 3.086)
+2020-03-09 19:44:04.584  INFO 13502 --- [main] com.hongchan.SampleRunner                : hello
+2020-03-09 19:44:04.584  INFO 13502 --- [main] com.hongchan.SampleRunner                : hongchan prod
+2020-03-09 19:47:43.915  INFO 13620 --- [main] com.hongchan.Application                 : Starting Application on yunhongchan-ui-MacBook-Pro.local with PID 13620 (started by hongchanyun in /Users/hongchanyun/coding_project/Spring Projects/springbootweb)
+2020-03-09 19:47:43.920  INFO 13620 --- [main] com.hongchan.Application                 : The following profiles are active: prod
+2020-03-09 19:47:45.943  INFO 13620 --- [main] com.hongchan.Application                 : Started Application in 2.923 seconds (JVM running for 4.747)
+2020-03-09 19:47:45.944  INFO 13620 --- [main] com.hongchan.SampleRunner                : hello
+2020-03-09 19:47:45.946  INFO 13620 --- [main] com.hongchan.SampleRunner                : hongchan prod
+2020-03-09 19:47:52.940  INFO 13627 --- [main] com.hongchan.Application                 : Starting Application on yunhongchan-ui-MacBook-Pro.local with PID 13627 (started by hongchanyun in /Users/hongchanyun/coding_project/Spring Projects/springbootweb)
+2020-03-09 19:47:52.943  INFO 13627 --- [main] com.hongchan.Application                 : The following profiles are active: prod
+2020-03-09 19:47:54.346  INFO 13627 --- [main] com.hongchan.Application                 : Started Application in 1.909 seconds (JVM running for 3.302)
+2020-03-09 19:49:07.775  INFO 13669 --- [main] com.hongchan.Application                 : Starting Application on yunhongchan-ui-MacBook-Pro.local with PID 13669 (started by hongchanyun in /Users/hongchanyun/coding_project/Spring Projects/springbootweb)
+2020-03-09 19:49:07.778 DEBUG 13669 --- [main] com.hongchan.Application                 : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-09 19:49:07.778  INFO 13669 --- [main] com.hongchan.Application                 : The following profiles are active: prod
+2020-03-09 19:49:08.378  INFO 13669 --- [main] com.hongchan.Application                 : Started Application in 0.976 seconds (JVM running for 2.236)
+2020-03-09 19:49:08.380 DEBUG 13669 --- [main] com.hongchan.SampleRunner                : hello
+2020-03-09 19:49:08.380 DEBUG 13669 --- [main] com.hongchan.SampleRunner                : hongchan prod
