@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <a th:text="${event.name}"> event name </a>
+    <form action="#" th:action="@{/events/form/id}" method="post" th:object="${event}">
+        <p th:if="${#fields.hasErrors('id')}" th:errors="*{id}">Incorrect data</p>
+        ID : <input type="text" title="id" th:field="*{id}"><br>
+        <input type="submit" value="Create Event">
+    </form>
+</body>
+</html>
