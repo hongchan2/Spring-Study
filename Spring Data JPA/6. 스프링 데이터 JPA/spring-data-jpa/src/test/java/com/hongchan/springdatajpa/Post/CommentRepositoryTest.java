@@ -26,7 +26,12 @@ public class CommentRepositoryTest {
 
     @Test
     public void projectionTest() {
-        commentRepository.findByPost_Id(1l);
+//        commentRepository.findByPost_Id(1l);
+    }
+
+    @Test
+    public void specs() {
+        commentRepository.findAll(CommentSpecs.isBest().or(CommentSpecs.isGood()));
     }
 
 }
