@@ -1,10 +1,18 @@
 package com.hongchan.springdatajpa.Post;
 
+import org.springframework.data.annotation.CreatedBy;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedBy;
+import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+
 import javax.persistence.*;
+import java.util.Date;
 
 @NamedEntityGraph(name = "Comment.post",
         attributeNodes = @NamedAttributeNode("post"))
 @Entity
+@EntityListeners(AuditingEntityListener.class)
 public class Comment {
 
     @Id @GeneratedValue
@@ -20,6 +28,52 @@ public class Comment {
     private int down;
 
     private boolean best;
+
+    @CreatedDate
+    private Date created;
+
+    @CreatedBy
+    @ManyToOne
+    private Account createBy;
+
+    @LastModifiedDate
+    private Date updated;
+
+    @LastModifiedBy
+    @ManyToOne
+    private Account updatedBy;
+
+    public Date getCreated() {
+        return created;
+    }
+
+    public void setCreated(Date created) {
+        this.created = created;
+    }
+
+    public Account getCreateBy() {
+        return createBy;
+    }
+
+    public void setCreateBy(Account createBy) {
+        this.createBy = createBy;
+    }
+
+    public Date getUpdated() {
+        return updated;
+    }
+
+    public void setUpdated(Date updated) {
+        this.updated = updated;
+    }
+
+    public Account getUpdatedBy() {
+        return updatedBy;
+    }
+
+    public void setUpdatedBy(Account updatedBy) {
+        this.updatedBy = updatedBy;
+    }
 
     public int getUp() {
         return up;
