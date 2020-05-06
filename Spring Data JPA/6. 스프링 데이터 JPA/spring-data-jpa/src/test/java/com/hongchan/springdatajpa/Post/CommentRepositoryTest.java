@@ -24,4 +24,9 @@ public class CommentRepositoryTest {
         commentRepository.findById(1l);
     }
 
+    @Test
+    public void projectionTest() {
+        commentRepository.findByPost_Id(1l);
+    }
+
 }
